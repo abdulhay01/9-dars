@@ -1,0 +1,101 @@
+.intro__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__box {
+    background-repeat: no-repeat;
+    background-image: url(../../../img/intro-bacgrount.png);
+    background-position-y: top;
+    background-position-x: center;
+    padding-top: 126px;
+    margin-top: 140px;
+    padding-bottom: 200px;
+    
+}
+.intro__item{
+    max-width: 255px;
+}
+.intro__img{
+    padding-bottom: 71px;
+    flex-shrink: 0;
+}
+
+.intro__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #333D4B;
+    max-width: 255px;
+
+}
+
+.intro__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+@media screen and (max-width:1000px) {
+    .intro__item{
+        display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 47px;
+      max-width: 10000px;
+      
+        
+    }
+    .intro__list{
+        flex-wrap: wrap;
+        padding: 0;
+        flex-direction: column;
+        
+    }
+    .intro__block{
+        max-width: 282px;
+    }
+    .intro__img{
+        max-width: 255px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .intro__item{
+      flex-direction: column;  
+      align-items: center;
+      justify-content: space-between;
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 47px;
+      
+    }
+    .intro__container{
+        margin-top: 0;
+    }
+    .intro__list{
+        flex-wrap: wrap;
+        padding: 0;
+        padding-top: 205px;
+        
+        
+    }
+    .intro__title{
+        padding-bottom: 17px;
+    }
+    .intro__block{
+        max-width: 282px;
+    }
+    .intro__img{
+        max-width: 200px;
+        padding: 0;
+        padding-bottom: 24px;
+
+    }
+}

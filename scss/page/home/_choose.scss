@@ -1,0 +1,142 @@
+.choose__container {
+    background-repeat: no-repeat;
+    position: relative;
+    background: url(../.../../../../img/choose-bacground.png);
+margin-bottom: 70px;
+}
+
+.choose__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-top: 100px;
+    padding-bottom: 32px;
+
+}
+
+.choose__text {
+    font-family: 'Barlow';
+font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding-bottom: 86px;
+  
+}
+
+.choose__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose__item {
+    
+    align-items: center;
+    max-width: 350px;
+    padding: 72px 47px;
+    background: #0E8784;
+border-radius: 8px;
+
+}
+
+.choose__sub-title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+
+}
+
+.choose__sub-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    max-width: 255px;
+}
+.choose__img{
+    width: 71px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 56px;
+    flex-shrink: 0;
+}
+
+
+@media screen and (max-width:1096px) {
+    .choose__item {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 800px;
+        padding: 41px 47px;
+        gap: 55px;
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 26px;
+    
+    }
+    .choose__list{
+        flex-direction: column;
+    }
+    .choose__sub-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        max-width: 344px;
+    }
+.choose__img{
+    padding: 0;
+}
+}
+
+@media screen and (max-width:600px) {
+    .choose__item {
+        
+        flex-direction: column;
+        align-items: center;
+        padding-top: 72px;
+        padding-bottom: 51px;
+        padding-right: 30px;
+        padding-left: 30px;
+        
+    
+    }
+    .choose__list{
+        flex-direction: column;
+    }
+    .choose__sub-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        max-width: 212px;
+    }
+.choose__img{
+    padding: 0;
+}
+}
